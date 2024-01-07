@@ -1,0 +1,117 @@
+/* Estilos Generales */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Contenedor Principal de la Aplicación */
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Estilos de Formulario */
+form {
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Contenedores de Elementos del Formulario */
+form div {
+  margin-bottom: 10px;
+}
+
+/* Etiquetas del Formulario */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Entradas del Formulario */
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Botones */
+button {
+  cursor: pointer;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #005a87;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Cambio de Color al Pasar el Ratón por Encima de los Botones */
+button:hover {
+  background-color: #003d5b;
+}
+
+/* Estilos de Producto */
+.producto-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Botón de Editar Producto */
+.editar-button {
+  background-color: #007bff; /* Azul */
+  color: #fff; /* Letras blancas */
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px; /* Separación derecha */
+}
+
+/* Botón de Eliminar Producto */
+.eliminar-button {
+  background-color: #ff0000; /* Rojo */
+  color: #fff; /* Letras blancas */
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Estilos para el Contenedor de los Filtros */
+.filtro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cada Elemento de Filtro */
+.filtro-item {
+  flex: 1; /* Ocupar espacio igualmente */
+  margin-right: 10px; /* Separación entre elementos */
+}
+
+/* Estilos para los Selects e Inputs de Filtro */
+.filtro-select,
+.filtro-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
