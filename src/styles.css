@@ -1,4 +1,4 @@
-/* Estilos Generales */
+/* Estilos generales */
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
@@ -8,7 +8,7 @@ body {
   padding: 20px;
 }
 
-/* Contenedor Principal de la Aplicación */
+/* Contenedor principal de la App */
 .App {
   max-width: 600px;
   margin: 20px auto;
@@ -17,13 +17,13 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
+/* Titulos */
 h1,
 h2 {
   color: #333;
 }
 
-/* Estilos de Formulario */
+/* Estilos del formulario */
 form {
   margin-bottom: 20px;
   background: #f9f9f9;
@@ -31,18 +31,18 @@ form {
   border-radius: 5px;
 }
 
-/* Contenedores de Elementos del Formulario */
+/* Contenedores de elementos del formulario */
 form div {
   margin-bottom: 10px;
 }
 
-/* Etiquetas del Formulario */
+/* Etiquetas del formulario */
 form label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* Entradas del Formulario */
+/* Entradas del formulario */
 form input[type="text"],
 form input[type="number"],
 form select {
@@ -64,7 +64,7 @@ button {
   font-size: 14px;
 }
 
-/* Cambio de Color al Pasar el Ratón por Encima de los Botones */
+/* Cambio de color al pasar el mouse por encima de los botones */
 button:hover {
   background-color: #003d5b;
 }
@@ -76,24 +76,24 @@ button:hover {
   margin: 10px 0;
 }
 
-/* Botón de Editar Producto */
+/* Botón de editar producto */
 .editar-button {
-  background-color: #007bff; /* Azul */
-  color: #fff; /* Letras blancas */
+  background-color: #007bff; 
+  color: #fff; 
   border: none;
   padding: 5px 10px;
-  margin-right: 5px; /* Separación derecha */
+  margin-right: 5px; 
 }
 
-/* Botón de Eliminar Producto */
+/* Boton de eliminar producto */
 .eliminar-button {
-  background-color: #ff0000; /* Rojo */
-  color: #fff; /* Letras blancas */
+  background-color: #ff0000; 
+  color: #fff; 
   border: none;
   padding: 5px 10px;
 }
 
-/* Estilos para el Contenedor de los Filtros */
+/* Estilos para el contenedor de los filtros */
 .filtro-container {
   display: flex;
   justify-content: space-between;
@@ -101,13 +101,13 @@ button:hover {
   margin-bottom: 20px;
 }
 
-/* Estilos para cada Elemento de Filtro */
+/* Estilos para cada elemento de filtro */
 .filtro-item {
-  flex: 1; /* Ocupar espacio igualmente */
-  margin-right: 10px; /* Separación entre elementos */
+  flex: 1; 
+  margin-right: 10px; 
 }
 
-/* Estilos para los Selects e Inputs de Filtro */
+/* Estilos para los selects e inputs de filtro */
 .filtro-select,
 .filtro-input {
   width: 100%;
